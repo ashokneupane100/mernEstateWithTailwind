@@ -44,22 +44,10 @@ export default function Header() {
 
   return (
     <header className="bg-slate-200 shadow-md">
-      <Link to="/">
-        <img
-          src="../../assets/images/logo192.png"
-          width="35px"
-          height="35px"
-          alt=""
-          style={{
-            marginLeft: "2.1rem",
-            marginTop: "1.8px",
-            marginBottom: "-1.8rem",
-          }}
-        />
-      </Link>
+      
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
-          <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
+          <h1 className="font-bold text-2xl sm:text-xl flex flex-wrap">
             <span className="text-slate-700 ml-[-.6rem]">homeland.com</span>
           </h1>
         </Link>
