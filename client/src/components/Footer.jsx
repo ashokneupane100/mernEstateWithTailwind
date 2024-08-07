@@ -61,7 +61,7 @@ export default function Footer() {
         style={{ border: 0, width: "100%", height: "70px" }}
         allowFullScreen
       ></iframe>
-      <h4 className="text-lg text-center">© {new Date().getFullYear()} Realist App</h4>
+      <h4 className="text-lg text-center">© {new Date().getFullYear()} Real estate website created by Ashok Neupane</h4>
     </div>
   );
 }
